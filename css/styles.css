@@ -1,0 +1,175 @@
+/*Resets*/
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oswald|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+/*/Resets*/
+.white{
+  font-size: medium;
+  font-weight: bold;
+  color: white;
+}
+.border{
+  border-color: gray;
+  border-style: solid;
+  border-width: 20px;
+}
+.center{
+  text-align: center;
+}
+.gray{
+  background-color: gray;
+}
+.padt40{
+  padding-top: 40px;
+}
+.hw{
+  height: 250px;
+  width: 250px;
+}
+.ht1{
+  height: 100px;
+}
+.yellow{
+  background-color: yellow;
+}
+.black{
+  background-color: black;
+}
+.h200{
+  height: 200px;
+}
+
+/*nav bar*/
+.logo{
+    height: 75px;
+    width: 80px;
+    float: left;
+    background-color: black;
+    border-radius: 35px;
+    animation-name: whoo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes whoo{
+  5%{
+    margin-left: 10em;
+    transform: rotate(30deg);
+  }
+  15%{
+    margin-left: 15em;
+      transform: rotate(60deg);
+  }
+  25%{
+      margin-left: 20em;
+      transform: rotate(80deg);
+    }
+  65%{
+    margin-left: 30em;
+    transform: rotate(60deg);
+  }
+  }
+
+.nav-links{
+    list-style-type: none;
+    float: right;
+}
+
+.nav-links{
+    margin-top: 24px;
+}
+li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.link{
+    color: yellow;
+    border-radius: 5px;
+}
+.link:hover{
+    background-color: yellow;
+    color:black;
+    padding: 5px 10px;
+}
+.link.active{
+    background-color: yellow;
+    color:black;
+}
+/* /navbar*/
+/*hero*/
+.hero{
+  width: 100%;
+  height: 250px;
+  background-image: url(../img/yyarn.jpg);
+  text-shadow: 2px 2px 10px white;
+  text-align: center;
+  display: inline-block;
+  font-size: x-large;
+  background-repeat: repeat;
+  font-family: 'Lobster', cursive;
+  color: black;
+}
+/*/hero*/
+/*footer*/
+.box{
+    height: 150px;
+    width: 33%;
+    background-color: black;
+    float: left;
+}
+.one, .three{
+    height: 150px;
+    text-align: center;
+    font-size: x-large;
+    color: yellow;
+    margin: 0 auto;
+}
+
+.fb{
+    font-size: 40px;
+    color: yellow;
+    display: inline-block;
+}
+
+.twitter{
+    text-align: center;
+    position: relative;
+}
+.facebook{
+    text-align: center;
+}
+
+.snap{
+    padding-left: 150px;
+    display: block;
+}
+
+.insta{
+    padding-right: 150px;
+    display: block;
+}
+.icon{
+    display: block;
+}
+.flogo{
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.email{
+  text-align: center;
+  color: yellow;
+  font-size: x-large;
+}
+
+
+/*/footer*/
