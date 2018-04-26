@@ -10,11 +10,18 @@
   a{
       text-decoration: none;
   }
+  a:active{
+    background-color: yellow;
+    color:black;
+  }
 
   @import url('https://fonts.googleapis.com/css?family=Oswald|Pacifico');
   @import url('https://fonts.googleapis.com/css?family=Lobster');
 
   /*/Resets*/
+  .font-responsive{
+    font-size: 5vw;
+  }
   .white{
     font-size: medium;
     font-weight: bold;
@@ -177,4 +184,4 @@
   }
 
 
-  /*/footer*/  
+  /*/footer*/

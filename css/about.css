@@ -1,3 +1,10 @@
+a:active{
+  background-color: yellow;
+  color:black;
+}
+.font-responsive{
+  font-size: 5vw;
+}
 .beag{
   height: 350px;
   width: 250px;
@@ -5,7 +12,8 @@
   margin-left:200px;
 }
 .costume{
-  text-align: center;
+  padding-left: 190px;
+  padding-top: 20px;
 }
 
 .bio{
